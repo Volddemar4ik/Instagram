@@ -1,0 +1,22 @@
+.MuiCardHeader-root {
+    .css-sgoict-MuiCardHeader-action {
+        display: contents;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .search-button {
+        max-width: 30px;
+    }
+
+    .search-field .header-search-button-standart {
+        display: none;
+    }
+
+    search-field .header-search-button-small {
+        display: none;
+    }
+}

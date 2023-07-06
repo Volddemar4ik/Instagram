@@ -1,0 +1,77 @@
+.user-container {
+    margin: 20px 50px;
+
+    .user-data-cart {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .MuiCardContent-root .user-data-container {
+        justify-content: space-between;
+    }
+
+}
+
+// .collection-scroll {
+//     overflow-x: hidden;
+// }
+
+// .collection-scroll::-webkit-scrollbar {
+//     height: 8px;
+// }
+
+// .collection-scroll::-webkit-scrollbar-track {
+//     -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+//     background-color: #f9f9fd;
+//     border-radius: 8px;
+// }
+
+// .collection-scroll::-webkit-scrollbar-thumb {
+//     border-radius: 8px;
+//     background-color: #e8def8;
+// }
+
+@media(max-width: 768px) {
+    .user-container {
+        margin: 10px;
+
+        .MuiCardContent-root .user-data-container {
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            margin: 0;
+
+            .user-data-actions-button {
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .user-container {
+        margin: 10px;
+
+        .user-data-box {
+            flex-direction: column;
+
+            .user-data-cart {
+                display: flex;
+                flex-direction: column;
+                // margin-left: 50px;
+                margin: 0;
+                width: 100%;
+            }
+
+            .MuiCardContent-root .user-data-container {
+                flex-direction: column-reverse;
+                justify-content: space-between;
+                margin: 0;
+
+                .user-data-actions-button {
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
+}

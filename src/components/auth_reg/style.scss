@@ -1,0 +1,44 @@
+main .css-1oqqzyl-MuiContainer-root {
+    display: grid;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+    .block-auth-reg {
+        display: grid;
+        padding: 5px;
+        width: 400px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            display: grid;
+            flex-wrap: nowrap;
+            font-family: 'monospace', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            color: inherit;
+            text-decoration: none;
+            flex-grow: 1;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .login-form {
+            align-self: flex-start;
+
+            .rotate {
+                animation-name: rotate;
+                animation-duration: 0.8s;
+                animation-timing-function: linear;
+                animation-iteration-count: 1;
+            }
+        }
+
+        .registration-link {
+            align-self: flex-end;
+            text-align: center;
+        }
+    }
+}
